@@ -122,3 +122,40 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  /* Dropdown styles */
+  .dropdown {
+    position: static;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .dropbtn {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    display: none;
+    margin: 0;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
+}
