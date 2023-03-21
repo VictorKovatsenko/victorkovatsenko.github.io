@@ -18,7 +18,7 @@ body {
 header {
   background-color: #45474a;
   color: #fff;
-  padding: 80px 10px 10px;
+  padding: 60px 10px 10px;
   display: flow;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ nav {
 	justify-content: center;
 	background-color: #45474a;
 	color: #fff;
-	padding: 20px;
+	padding: 10px 10px 10px;
 	z-index: 1;
 }
 
@@ -107,7 +107,7 @@ footer {
   }
 
   nav a {
-    margin: 10px;
+    margin: 5px;
   }
 
   main {
@@ -115,7 +115,7 @@ footer {
   }
 
   header {
-    padding: 80px 10px 5px;
+    padding: 60px 10px 5px;
   }
 
   header h1 {
