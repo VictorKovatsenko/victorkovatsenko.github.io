@@ -75,7 +75,7 @@ section {
 section h2 {
 	font-size: 24px;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 section ul {
@@ -127,4 +127,8 @@ footer {
   main {
     padding: 20px 20px 20px;
   }
+
+  section h2 {
+	font-size: 20px;
+}
 }
