@@ -59,7 +59,17 @@ header h2 {
   font-size: 24px;
   font-weight: normal;
   font-family: "Caveat", cursive;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+/* Instagram icon styles */
+.instagram-icon {
+  color: #aaa;
+  transition: color 0.2s;
+}
+
+.instagram-icon:hover {
+  color: #ffcc00;
 }
 
 /* Main styles */
