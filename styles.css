@@ -257,6 +257,7 @@ footer {
       width: 100%;
   }
 
+    /*Table mobile styles*/
   table {
       font-size: 14px;
   }
@@ -264,4 +265,21 @@ footer {
   th, td {
       padding: 5px;
   }
+
+    /*Hovers (active) for mobile version*/
+  nav a:hover {
+      color: #ffcc00;
+    }
+  .instagram-icon:active {
+      color: #ffcc00;
+    }
+  li .image-container:active img {
+      opacity: 0.2;
+    }
+  li .image-container:active .image-text {
+      opacity: 1;
+    }
+  tr:active {
+    background-color: #ebebeb;
+    }
 }
