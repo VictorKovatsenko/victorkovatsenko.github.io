@@ -274,8 +274,7 @@ footer {
       color: #ffcc00;
     }
 
-  .instagram-icon:hover,
-  .instagram-icon:active {
+  .instagram-icon:hover {
       color: #ffcc00;
     }
 
@@ -289,8 +288,7 @@ footer {
       opacity: 1;
     }
 
-  tr:hover,
-  tr:active {
+  tr:hover {
     background-color: #ebebeb;
     }
 }
