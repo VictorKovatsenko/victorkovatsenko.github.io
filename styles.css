@@ -279,17 +279,21 @@ footer {
 
   .instagram-icon:active {
       color: #ffcc00;
+      pointer-events: visible;
     }
 
   li .image-container:active img {
       opacity: 0.2;
+      pointer-events: visible;
     }
 
   li .image-container:active .image-text {
       opacity: 1;
+      pointer-events: visible;
     }
 
   tr:active {
     background-color: #ebebeb;
+      pointer-events: visible;
     }
 }
