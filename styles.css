@@ -271,29 +271,24 @@ footer {
 }
 
 /*Hovers (active) for mobile version*/
-@media (hover: none) and (pointer: fine){
-  nav a:active {
+@media (hover: none){
+  nav a:hover:active {
       color: #ffcc00;
-      pointer-events: visible;
     }
 
-  .instagram-icon:active {
+  .instagram-icon:hover:active {
       color: #ffcc00;
-      pointer-events: visible;
     }
 
-  li .image-container:active img {
+  li .image-container:hover:active {
       opacity: 0.2;
-      pointer-events: visible;
     }
 
-  li .image-container:active .image-text {
+  li .image-container:hover:active .image-text {
       opacity: 1;
-      pointer-events: visible;
     }
 
-  tr:active {
+  tr:hover:active {
     background-color: #ebebeb;
-      pointer-events: visible;
     }
 }
