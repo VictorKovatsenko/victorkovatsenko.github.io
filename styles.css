@@ -271,9 +271,10 @@ footer {
 }
 
 /*Hovers (active) for mobile version*/
-@media (hover: none){
+@media (hover: none) and (pointer: fine){
   nav a:active {
       color: #ffcc00;
+      pointer-events: visible;
     }
 
   .instagram-icon:active {
