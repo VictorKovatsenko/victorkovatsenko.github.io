@@ -124,8 +124,6 @@ section ul li {
 li .image-container {
     display: flex;
 	position: relative;
-    width: 100%;
-    /*max-width: 50%;*/
     height: auto;
     margin: 0;
     border-radius: 5px;
@@ -243,12 +241,12 @@ footer {
   }
 
   li .service-desc {
-      width: 95%;
+      width: 100%;
       margin: 5px auto;
     }
 
   li .image-container {
-      width: 95%;
+      width: 100%;
       /*max-width: 350px;*/
       margin: 5px auto;
   }
