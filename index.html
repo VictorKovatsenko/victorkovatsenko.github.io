@@ -117,5 +117,17 @@
 		<p>&copy; 2023 Brows & Lashes By Viktoria</p>
 		<p>All rights reserved.</p>
 	</footer>
+
+	<script>
+		var box = document.querySelector('.image-container');
+
+		box.addEventListener('touchstart', function() {
+		  box.classList.add('active');
+		});
+
+		box.addEventListener('touchend', function() {
+		  box.classList.remove('active');
+		});
+	</script>
 </body>
 </html>

@@ -270,23 +270,27 @@ footer {
     }
 
 /*Hovers (active) for mobile version*/
-  nav a:hover:active {
+  nav a:hover {
       color: #ffcc00;
     }
 
-  .instagram-icon:hover:active {
+  .instagram-icon:hover,
+  .instagram-icon:active {
       color: #ffcc00;
     }
 
-  li .image-container:hover:active {
+  li .image-container:hover,
+  li .image-container:active {
       opacity: 0.2;
     }
 
-  li .image-container:hover:active .image-text {
+  li .image-container:hover,
+  li .image-container:active .image-text {
       opacity: 1;
     }
 
-  tr:hover:active {
+  tr:hover,
+  tr:active {
     background-color: #ebebeb;
     }
 }
