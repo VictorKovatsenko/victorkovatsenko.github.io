@@ -78,13 +78,25 @@ main {
 	z-index: 1;
 }
 
+section h2:after {
+  content: "";
+  display: block;
+  height: 0.5px;
+  width: 50%;
+  margin: 5px auto;
+  background-color: #9c9b98;
+}
+
 section {
 	margin-bottom: 0;
 }
 
 section h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: normal;
 	padding-top: 10px;
 	margin-bottom: 10px;
 }
@@ -105,7 +117,53 @@ section ul {
 }
 
 section ul li {
+    display: flex;
 	margin-bottom: 10px;
+}
+
+li .image-container {
+    display: flex;
+	position: relative;
+    width: 100%;
+    /*max-width: 50%;*/
+    height: auto;
+    margin: 0;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+li .image-container img {
+    display: block;
+	max-width: 100%;
+    border-radius: 5px;
+}
+
+li .image-container .image-text {
+    display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 35px;
+	font-weight: bold;
+	color: #26241d;
+	padding: 10px;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 0.4s ease;
+}
+
+li .image-container:hover img {
+    opacity: 0.2;
+}
+
+li .image-container:hover .image-text {
+	opacity: 1;
+}
+
+li .service-desc {
+    width: 100%;
+    margin-left: 20px;
 }
 
 /* Table styles */
@@ -113,7 +171,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 40px;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   background-color: #fff;
   font-size: 14px;
 }
@@ -178,5 +236,32 @@ footer {
 
   section h2 {
 	font-size: 20px;
-}
+  }
+  section ul li {
+      display: block;
+      margin-left: 5px;
+  }
+
+  li .service-desc {
+      width: 95%;
+      margin: 5px auto;
+    }
+
+  li .image-container {
+      width: 95%;
+      /*max-width: 350px;*/
+      margin: 5px auto;
+  }
+    /* Adjust image size for mobile */
+  #services li img {
+      width: 100%;
+  }
+
+  table {
+      font-size: 14px;
+  }
+
+  th, td {
+      padding: 5px;
+  }
 }
