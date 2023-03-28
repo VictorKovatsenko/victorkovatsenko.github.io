@@ -270,25 +270,23 @@ footer {
     }
 
 /*Hovers (active) for mobile version*/
-  nav a:hover {
-      color: #ffcc00;
-    }
+/*  nav a:hover {*/
+/*      color: #ffcc00;*/
+/*    }*/
 
-  .instagram-icon:hover {
-      color: #ffcc00;
-    }
+/*  .instagram-icon:hover {*/
+/*      color: #ffcc00;*/
+/*    }*/
 
-  li .image-container:hover,
-  li .image-container:active {
-      opacity: 0.2;
-    }
+/*  li .image-container:hover {*/
+/*      opacity: 0.2;*/
+/*    }*/
 
-  li .image-container:hover,
-  li .image-container:active .image-text {
-      opacity: 1;
-    }
+/*  li .image-container:hover .image-text {*/
+/*      opacity: 1;*/
+/*    }*/
 
-  tr:hover {
-    background-color: #ebebeb;
-    }
+/*  tr:hover {*/
+/*    background-color: #ebebeb;*/
+/*    }*/
 }
