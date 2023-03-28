@@ -74,6 +74,8 @@ header h2 {
 
 /* Main styles */
 main {
+    margin: 0 auto;
+    max-width: 1080px;
 	padding: 0 50px 50px;
 	z-index: 1;
 }
