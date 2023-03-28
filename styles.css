@@ -123,6 +123,7 @@ section ul li {
 	margin-bottom: 10px;
 }
 
+    /*Image styles*/
 li .image-container {
     display: flex;
 	position: relative;
@@ -207,78 +208,86 @@ footer {
 
 /* Mobile styles */
 @media (max-width: 768px) {
-  nav {
-    align-items: center;
-    justify-content: center;
-	font-size: 14px;
-	padding: 5px 10px 5px;
-  }
-
-  nav a {
-    margin: 5px;
-  }
-
-  header {
-    padding: 60px 10px 5px;
-  }
-
-  header h1 {
-    font-size: 24px;
-  }
-
-  header h2 {
-    font-size: 18px;
-  }
-
-  main {
-    padding: 0 20px 20px;
-  }
-
-  section h2 {
-	font-size: 20px;
-  }
-  section ul li {
-      display: block;
-      margin-left: 5px;
-  }
-
-  li .service-desc {
-      width: 100%;
-      margin: 5px auto;
+    nav {
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        padding: 5px 10px 5px;
     }
 
-  li .image-container {
-      width: 100%;
-      /*max-width: 350px;*/
-      margin: 5px auto;
-  }
+    nav a {
+        margin: 5px;
+    }
+
+    header {
+        padding: 60px 10px 5px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 0 20px 20px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section ul li {
+        display: block;
+        margin-left: 5px;
+    }
+
+    li .service-desc {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    li .image-container {
+        width: 100%;
+        /*max-width: 350px;*/
+        margin: 5px auto;
+    }
+
     /* Adjust image size for mobile */
-  #services li img {
-      width: 100%;
-  }
+    #services li img {
+        width: 100%;
+    }
 
     /*Table mobile styles*/
-  table {
-      font-size: 14px;
-  }
+    table {
+        font-size: 14px;
+    }
 
-  th, td {
-      padding: 5px;
-  }
+    th, td {
+        padding: 5px;
+    }
+}
 
-    /*Hovers (active) for mobile version*/
-  nav a:hover {
+/*Hovers (active) for mobile version*/
+@media (hover: none){
+  nav a:active {
       color: #ffcc00;
     }
+
   .instagram-icon:active {
       color: #ffcc00;
     }
+
   li .image-container:active img {
       opacity: 0.2;
     }
+
   li .image-container:active .image-text {
       opacity: 1;
     }
+
   tr:active {
     background-color: #ebebeb;
     }
