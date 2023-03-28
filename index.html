@@ -134,6 +134,15 @@
 			});
 		  }
 		}
+
+		document.addEventListener('touchstart', function() {
+			// Remove all hover effects
+		  const hoveredElements = document.querySelectorAll(':hover');
+		  hoveredElements.forEach(element => {
+			element.classList.remove('hover');
+		  });
+		});
+
 	</script>
 </body>
 </html>
