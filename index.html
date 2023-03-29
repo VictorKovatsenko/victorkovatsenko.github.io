@@ -14,7 +14,7 @@
 			<a href="#services" data-offset="35">Services</a>
 			<a href="#price" data-offset="35">Prices</a>
 			<a href="#about" data-offset="35">About</a>
-			<a href="#contact" data-offset="35">Contact</a>
+			<a href="#booking" data-offset="35">Booking</a>
 	</nav>
 
 	<header id="header">
@@ -105,17 +105,30 @@
 			<p>I am the professional esthetician who specializes in brow shaping and lash services. My goal is to enhance your natural beauty and leave you feeling confident and beautiful.</p>
 		</section>
 
-		<section id="contact">
-			<h2>Contact</h2>
-			<p>Whatsapp: 999999</p>
-			<p>Instagram: lashes_brows_berlin</p>
-			<p>Address: Berlin, Mitte</p>
+		<section id="booking">
+			<h2>Booking</h2>
+			<p>To make an appointment simply contact me via one of the links below:</p>
+			<div class="contact-links">
+				<p>Instagram: lashes_brows_berlin</p>
+				<p>Whatsapp/Telegram: </p>
+			</div>
 		</section>
+
+		<div class="address">
+		  <p>Address</p>
+			<i class="fa-solid fa-location-dot"></i>
+		  <a href="https://maps.google.com/maps?q=Chausseestr. 37, 10115, Berlin" target="_blank">
+			  Chausseestraße 37 Berlin</a>
+		</div>
 	</main>
 
 	<footer>
 		<p>&copy; 2023 Brows & Lashes By Viktoria</p>
 		<p>All rights reserved.</p>
+		<p>Created by Victor Kovatsenko
+		<a href="https://www.linkedin.com/in/victor-kovatsenko-684b22163/" class="linkedin-icon">
+			<i class="fa-brands fa-linkedin fa-m"></i></a>
+		</p>
 	</footer>
 
 	<script>
@@ -135,6 +148,7 @@
 		  }
 		}
 
+		// Turn off hover when touches anywhere outside the items
 		document.addEventListener('touchstart', function() {
 			// Remove all hover effects
 		  const hoveredElements = document.querySelectorAll(':hover');

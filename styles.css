@@ -199,6 +199,11 @@ tr:hover {
   background-color: #ebebeb;
 }
 
+main .address {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
 /* Footer styles */
 footer {
 	background-color: #333;
@@ -206,6 +211,15 @@ footer {
 	padding: 20px;
 	text-align: center;
 	font-size: 12px;
+}
+/* Linkedin icon styles */
+.linkedin-icon {
+    color: #aaa;
+    transition: color 0.2s;
+}
+
+.linkedin-icon:hover {
+  color: #ffcc00;
 }
 
 /* Mobile styles */
@@ -276,25 +290,4 @@ footer {
     th, td {
         padding: 5px;
     }
-
-/*Hovers (active) for mobile version*/
-/*  nav a:hover {*/
-/*      color: #ffcc00;*/
-/*    }*/
-
-/*  .instagram-icon:hover {*/
-/*      color: #ffcc00;*/
-/*    }*/
-
-/*  li .image-container:hover {*/
-/*      opacity: 0.2;*/
-/*    }*/
-
-/*  li .image-container:hover .image-text {*/
-/*      opacity: 1;*/
-/*    }*/
-
-/*  tr:hover {*/
-/*    background-color: #ebebeb;*/
-/*    }*/
 }
