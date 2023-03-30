@@ -50,15 +50,15 @@ header {
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: normal;
   margin-bottom: 0; /* added to create some space between h1 and h2 */
 }
 
 header h2 {
-  font-size: 30px;
+  font-size: 38px;
   font-weight: normal;
-  font-family: "Fasthand", cursive;
+  font-family: "Great Vibes", cursive;
   margin-bottom: 5px;
 }
 
@@ -253,7 +253,7 @@ footer {
     nav {
         align-items: center;
         justify-content: center;
-        font-size: 14px;
+        font-size: 16px;
         padding: 5px 10px 5px;
     }
 
@@ -266,11 +266,11 @@ footer {
     }
 
     header h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     header h2 {
-        font-size: 22px;
+        font-size: 28px;
     }
 
     .instagram-icon {
