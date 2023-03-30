@@ -113,6 +113,7 @@ section h3 {
 section p {
 	font-size: 14px;
 	margin-bottom: 5px;
+    text-align: justify;
 }
 
 section ul {
@@ -162,6 +163,14 @@ li .image-container:hover img {
 
 li .image-container:hover .image-text {
 	opacity: 1;
+}
+
+.brows {
+    padding: 25px 0;
+}
+
+.lashes {
+    padding-bottom: 25px;
 }
 
 li .service-desc {
