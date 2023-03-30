@@ -2,18 +2,18 @@
 <html>
 <head>
 	<title>Wimpernlifting & Augenbrauen in Berlin </title>
+	<script src="https://kit.fontawesome.com/3bef7fd010.js" crossorigin="anonymous"></script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://kit.fontawesome.com/3bef7fd010.js" crossorigin="anonymous"></script>
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -166,51 +166,8 @@
 		</p>
 	</footer>
 
-	<script>
-		// Detect touch screen devices
-		if ('ontouchstart' in document.documentElement) {
-		  // Add hover effect when touched
-		  const elements = document.querySelectorAll('.image-container, tr, a');
+	<script> src="hover_effects.js"</script>
+	<script> src="offset.js" </script>
 
-		  for (let i = 0; i < elements.length; i++) {
-			elements[i].addEventListener('touchstart', function() {
-			  this.classList.add('active');
-			});
-
-			elements[i].addEventListener('touchend', function() {
-			  this.classList.remove('active', 'hover');
-			});
-		  }
-		}
-
-		// Turn off hover when touches anywhere outside the items
-		document.addEventListener('touchstart', function() {
-			// Remove all hover effects
-		  const hoveredElements = document.querySelectorAll(':hover');
-		  hoveredElements.forEach(element => {
-			element.classList.remove('active', 'hover');
-		  });
-		});
-
-		// Offset for navigation
-		function scrollToSection(event) {
-		  event.preventDefault();
-
-		  const target = document.querySelector(event.target.hash);
-		  const offset = parseInt(event.target.getAttribute('data-offset'));
-
-		  window.scroll({
-			behavior: 'smooth',
-			left: 0,
-			top: target.offsetTop - offset
-		  });
-		}
-
-		const links = document.querySelectorAll('a[href^="#"]');
-
-		links.forEach(link => {
-		  link.addEventListener('click', scrollToSection);
-		});
-	</script>
 </body>
 </html>
