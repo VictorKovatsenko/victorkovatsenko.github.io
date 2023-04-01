@@ -197,32 +197,38 @@ li .service-desc {
 
 /* Table styles */
 table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 40px;
-  /*border: 1px solid #ccc;*/
-  background-color: #fff;
-  font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+    /*border: 1px solid #ccc;*/
+     background-color: #fff;
+    font-size: 14px;
+}
+
+.subhead {
+    text-align: center;
+    font-weight: bolder;
 }
 
 th,
 td {
-  text-align: left;
-  padding: 10px;
+    text-align: left;
+    padding: 10px;
   /*border: 1px solid #ccc;*/
 }
 
 th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 tr:hover {
-  background-color: #ebebeb;
+    background-color: #ebebeb;
 }
 
 main .address {
