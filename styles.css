@@ -16,26 +16,52 @@ body {
 
 /* Navigation styles */
 nav {
-	display: flex;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	align-items: center;
-	justify-content: center;
-	background-color: #45474a;
-	color: #fff;
-	padding: 10px 10px 10px;
-	z-index: 1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #45474a;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
 }
 
 nav a {
-	color: #fff;
-	text-decoration: none;
-	margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 nav a:hover {
-	color: #e1306c;
+    color: #e1306c;
+}
+
+/* Language selector styles */
+.lang-selector {
+    position: relative;
+}
+
+.lang-selector select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.lang-selector select:focus {
+    outline: none;
+}
+
+.lang-selector:hover:after,
+.lang-selector select:focus ~ :after {
+    color: #fff;
 }
 
 /* Header styles */
