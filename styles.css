@@ -51,8 +51,8 @@ nav a:hover {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 10px;
-    padding: 5px 20px 5px 5px; /* increased right padding to make room for arrow */
+    margin-left: 30px;
+    padding: 5px 20px 5px 0; /* increased right padding to make room for arrow */
     position: relative;
 }
 
@@ -180,23 +180,7 @@ section p {
     text-align: justify;
 }
 
-/*section ul {*/
-/*	list-style: none;*/
-/*	margin-bottom: 20px;*/
-/*}*/
-
-/*section ul li {*/
-/*    display: flex;*/
-/*	margin-bottom: 10px;*/
-/*    !*border-bottom: 1px solid #ccc;*!*/
-/*    !*border-bottom-width: 10px;*!*/
-/*}*/
-
-/*section ul  li:last-child {*/
-/*    border-bottom: none;*/
-/*}*/
-
-    /*Image styles*/
+/*Image styles*/
 .image-container {
     display: flex;
 	position: relative;
@@ -448,7 +432,7 @@ blockquote::after {
 }
 
 .instagram-btn:hover i{
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .address {
@@ -497,6 +481,10 @@ footer {
 
     nav a {
         margin: 5px;
+    }
+
+    .lang-selector select {
+        margin-left: 0;
     }
 
     header {
