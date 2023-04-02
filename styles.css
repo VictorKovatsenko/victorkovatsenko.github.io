@@ -267,55 +267,12 @@ tr:hover {
     justify-content: center;
     padding: 15px;
     padding-top: 0;
+    padding-bottom: 0;
     align-items: center;
-}
-
-.advantages-container {
-    display: flex;
-    justify-content: center;
-    padding: 30px 10px 30px 10px;
-    /*background-color: #ffffff;*/
-    /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
-}
-
-.advantages-container ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.advantages-container .left-list {
-    margin-right: 150px;
-}
-
-.advantages-container li {
-    display: block;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.advantages-container p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.advantages-container i {
-    color: #6e6e6e;
-    font-size: 48px;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.advantages-container i:hover {
-    color: #e1306c;
 }
 
 blockquote {
     font-family: Georgia, serif;
-    font-size: 1.5rem;
     font-style: italic;
     line-height: 1.5;
     text-align: left;
@@ -359,21 +316,61 @@ blockquote::after {
     margin-top: 5px;
 }
 
+.advantages-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px 0 10px;
+    /*background-color: #ffffff;*/
+    /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.advantages-container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages-container .left-list {
+    margin-right: 150px;
+}
+
+.advantages-container li {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.advantages-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantages-container i {
+    color: #6e6e6e;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.advantages-container i:hover {
+    color: #e1306c;
+}
+
 /*Make an appointment styles*/
 #booking {
-  /*background-color: #fff;*/
-  color: #333;
-  padding: 30px;
-  margin-bottom: 50px;
+    color: #333;
+    padding: 30px;
+    margin-bottom: 50px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2),
               -2px -2px 6px rgba(255, 255, 255, 0.5);
-  /*border: 1px solid #ddd;*/
-  /*border-radius: 10px;*/
 }
 
 #booking p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   margin-bottom: 10px;
 }
 
@@ -416,7 +413,7 @@ blockquote::after {
 }
 
 .address p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     padding-bottom: 0;
 }
 
