@@ -40,26 +40,26 @@ nav a:hover {
 
 /* Header styles */
 header {
-  background-color: #f9f9f9;
-  color: #2d2d2e;
-  padding: 60px 10px 10px;
-  display: flow;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    background-color: #f9f9f9;
+    color: #2d2d2e;
+    padding: 60px 10px 10px;
+    display: flow;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 header h1 {
-  font-size: 38px;
-  font-weight: lighter;
-  margin-bottom: 0; /* added to create some space between h1 and h2 */
+    font-size: 38px;
+    font-weight: lighter;
+    margin-bottom: 0; /* added to create some space between h1 and h2 */
 }
 
 header h2 {
-  font-size: 38px;
-  font-weight: normal;
-  font-family: "Great Vibes", cursive;
-  margin-bottom: 5px;
+    font-size: 38px;
+    font-weight: normal;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 5px;
 }
 
 /* Instagram icon styles */
@@ -71,7 +71,7 @@ header h2 {
 }
 
 .instagram-icon:hover {
-  color: #ffcc00;
+    color: #ffcc00;
 }
 
 /* Main styles */
@@ -89,7 +89,7 @@ section {
 }
 
 section.animate {
-  animation: slide-up 0.5s ease forwards;
+    animation: slide-up 0.5s ease forwards;
 }
 
 @keyframes slide-up {
