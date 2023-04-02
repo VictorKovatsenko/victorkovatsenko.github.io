@@ -1,7 +1,7 @@
 // Detect touch screen devices
 if ('ontouchstart' in document.documentElement) {
     // Add hover effect when touched
-    const elements = document.querySelectorAll('.image-container, tr, a');
+    const elements = document.querySelectorAll('.image-container, tr, a, .instagram-btn');
 
     for (let i = 0; i < elements.length; i++) {
         elements[i].addEventListener('touchstart', function() {
