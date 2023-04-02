@@ -77,12 +77,13 @@ header h2 {
 main {
     margin: 0 auto;
     max-width: 1240px;
-	padding: 0 20px 20px;
+	padding: 10px 20px 10px 20px;
 	z-index: 1;
 }
 
 section {
     opacity: 0;
+    margin-bottom: 50px;
     transform: translateY(100%);
     animation: slide-up 0.5s ease forwards;
 }
@@ -192,9 +193,12 @@ section p {
 
 .lashes {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
 .brows {
@@ -202,7 +206,8 @@ section p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .service-desc-lashes {
@@ -255,6 +260,7 @@ tr:hover {
 #about {
     justify-content: center;
     padding: 15px;
+    padding-top: 0;
     align-items: center;
 }
 
@@ -264,6 +270,7 @@ tr:hover {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .advantages-container ul {
@@ -386,7 +393,11 @@ footer {
     }
 
     main {
-        padding: 0 15px 15px;
+        padding: 10px 15px 10px 15px;
+    }
+
+    section {
+        margin-bottom: 30px;
     }
 
     section h2 {
@@ -403,6 +414,30 @@ footer {
     /*    display: block;*/
     /*}*/
 
+        /* Adjust image size for mobile */
+    #services li img {
+        width: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .lashes {
+        flex-direction: column;
+        padding: 5px;
+        box-shadow: None;
+    }
+
+    .brows {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        justify-content: flex-start;
+        padding: 5px;
+        box-shadow: None;
+    }
+
     .service-desc-lashes {
         width: 100%;
         margin: 5px auto;
@@ -413,31 +448,6 @@ footer {
         width: 100%;
         margin: 5px auto;
         padding: 0;
-    }
-
-        /* Adjust image size for mobile */
-    #services li img {
-        width: 100%;
-    }
-
-    .image-container {
-        width: 100%;
-        /*max-width: 350px;*/
-        margin: 5px auto;
-    }
-
-    .lashes {
-        padding-bottom: 10px;
-        display: inline;
-        align-items: stretch;
-        justify-content: flex-start;
-    }
-
-    .brows {
-        flex-direction: column-reverse;
-        padding-bottom: 0;
-        align-items: stretch;
-        justify-content: flex-start;
     }
 
     /*Table mobile styles*/
