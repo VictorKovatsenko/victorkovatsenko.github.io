@@ -8,3 +8,5 @@ function openLinkInSystemBrowser() {
     });
   }
 }
+
+window.addEventListener('load', openLinkInSystemBrowser);
