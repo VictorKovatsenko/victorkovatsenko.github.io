@@ -1,5 +1,5 @@
 // Language redirection logic
-var userLang = navigator.language;
+const userLang = navigator.language;
 if (userLang.toLowerCase().startsWith('de')) {
   window.location.href = 'index_de.html'; // Redirect to German version
 } else if (userLang.toLowerCase().startsWith('ru')) {
