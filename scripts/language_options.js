@@ -1,6 +1,6 @@
 const languageSelector = document.getElementById("language-selector");
 
-languageSelector.addEventListener("load", function () {
+window.addEventListener("load", function () {
     const userLang = navigator.language;
     if (userLang.toLowerCase().startsWith('de')) {
       window.location.href = 'index_de.html'; // Redirect to German version
