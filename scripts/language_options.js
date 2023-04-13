@@ -9,7 +9,7 @@ languageSelector.addEventListener("change", function () {
         // Disable automatic redirection on page loading
         if (scriptElement) {
             // Remove the script element from the DOM
-            scriptElement.parentNode.removeChild(scriptElement);
+            scriptElement.remove();
         }
     } else {
         window.location.href = "index_" + selectedValue + ".html";
