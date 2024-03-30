@@ -475,6 +475,13 @@ blockquote::after {
     color: #e1306c;
 }
 
+.fa-envelope {
+    margin-right: 5px;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: #e1306c;
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
